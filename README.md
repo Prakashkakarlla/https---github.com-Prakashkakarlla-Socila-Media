@@ -1,6 +1,6 @@
 # Social Media App
 
-<img width="959" alt="Netlink-dark" src="https://github.com/Osigelialex/SocialMediaApp/assets/97721950/8f5ea911-eed3-4c08-8f28-3f863e177d88">
+
 
 This MERN stack social media application allows users to connect and share their thoughts, photos, and more. Below are the key features, prerequisites, and setup instructions for the application.
 
@@ -34,35 +34,22 @@ Ensure you have the following installed before setting up the application:
 
 Follow these steps to set up the application:
 
-1. **Clone the Repository:**
 
-   ```bash
-   git clone https://github.com/your-username/SocialMediaApp.git
 
-2. **Navigate to the main directory**
+1. **Navigate to the main directory**
   ```bash
   cd SocialMediaApp
   ```
 
-3. **Install dependencies**
+2. **Install dependencies**
   ```bash
   npm install
    ```
 
-4. **Configure environment variables**
-   Create a .env file in the root directory and set the following variables
-   ```bash
-     JWT_SECRET=YOUR_JWT_SECRET
-     SALT_ROUNDS=10
-     PORT=5000
-     DB_URL=YOUR_MONGODB_CONNECTION_STRING
-     NODE_ENV=development
-     ```
-
-6. **Run the Application**
+3. **Run the Application**
   ```bash
   npm start
    ```
 
-6. **Open in Browser**:
+4. **Open in Browser**:
   Open your web browser and go to http://localhost:5173 to access the Social Media App.
