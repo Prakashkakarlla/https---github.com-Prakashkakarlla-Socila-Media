@@ -8,6 +8,8 @@ import Aside from "../Components/Aside";
 import Post from "../Components/Post";
 import CommentCard from "../Components/commentCard";
 import { MdOutlineDelete } from "react-icons/md";
+import { MdIconName } from 'react-icons/md';
+
 import { Alert } from "@mui/material";
 
 const PostDetail = () => {
